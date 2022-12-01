@@ -1,0 +1,48 @@
+/* css file for navbar */
+.startt{
+    background-color: #75B54F;
+   border-bottom-left-radius: 1500px;
+   border-bottom-right-radius: 1500px;
+}
+
+/* css for name of project*/
+.navbar-brand{
+    font-weight: 800;
+}
+
+
+/* css for ul tag contains 5 headings*/
+.navbar-nav{
+    position: absolute;
+    right: 60px;
+}
+
+/* li tags if want to customise each heading */
+.nav-item{
+    padding-left: 60px;
+}
+
+
+/* content */
+.content{
+    margin: 140px 300px ;
+    text-align: center;
+}
+
+/* for heading */
+.heading{
+   font-size: 100px;
+}
+
+.text{
+    font-size: 26px;
+    margin:20px;
+}
+
+.btn{
+    font-size: 26px;
+    background-color: black;
+    color: white;
+    border-radius: 40px;
+    padding: 2px 80px;
+}
