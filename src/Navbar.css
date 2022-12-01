@@ -3,6 +3,7 @@
     background-color: #75B54F;
    border-bottom-left-radius: 1500px;
    border-bottom-right-radius: 1500px;
+   color: #fff;
 }
 
 /* css for name of project*/
@@ -34,15 +35,117 @@
    font-size: 100px;
 }
 
-.text{
-    font-size: 26px;
-    margin:20px;
-}
+
 
 .btn{
-    font-size: 26px;
+    font-size: 32px;
     background-color: black;
     color: white;
     border-radius: 40px;
     padding: 2px 80px;
+    transition-delay: 0s;
+    transition-duration: 0.2s;
 }
+
+.btn:hover{
+color: black;
+background-color: #abd791;
+border-width: 1px;
+border-color: black;
+
+}
+/* .content {
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+} */
+
+.head1,.head2{
+    display:inline-block;
+    overflow:hidden;
+    white-space:nowrap;
+  }
+  
+  .head2:first-of-type {    
+    animation: showup 7s infinite;
+  }
+  
+  .head2:last-of-type {
+    width:0px;
+    animation: reveal 7s infinite;
+  }
+  
+  .head1:last-of-type{
+    margin-left:-355px;
+    animation: slidein 7s infinite;
+  }
+  
+  @keyframes showup {
+      0% {opacity:0;}
+      20% {opacity:1;}
+      80% {opacity:1;}
+      100% {opacity:0;}
+  }
+  
+  @keyframes slidein {
+      0% { margin-left:-800px; }
+      20% { margin-left:-800px; }
+      35% { margin-left:0px; }
+      100% { margin-left:0px; }
+  }
+  
+  @keyframes reveal {
+      0% {opacity:0;width:0px;}
+      20% {opacity:1;width:0px;}
+      30% {width:355px;}
+      80% {opacity:1;}
+      100% {opacity:0;width:355px;}
+  }
+
+  .heading{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 56px;
+  }
+
+  .text{
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    font-size: 32px;
+  }
+
+  .hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: 
+  #f5f7f9;
+  }
+  
+  .hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: 
+  #f7f9fa;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  

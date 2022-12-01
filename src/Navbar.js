@@ -4,28 +4,28 @@ import './Navbar.css'
 const Navbar=()=>{
     return(
         <div className="startt">
-        <nav className="navbar navbar-expand-lg ">
+        <nav className="navbar navbar-expand-lg navbar-dark">
   <div className="container-fluid">
-    <a className="navbar-brand" href="#">So<img src={logo} alt="logo" />arity.in</a>
+    <a className="navbar-brand" href="#">So<img src={logo} alt="logo"/>arity.in</a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
         <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="#">Home</a>
+          <a className="nav-link active hover-underline-animation" aria-current="page" href="#">Home</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="#">Our mission</a>
+          <a className="nav-link active hover-underline-animation" aria-current="page" href="#">Our mission</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="#">Logistics</a>
+          <a className="nav-link active hover-underline-animation" aria-current="page" href="#">Logistics</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="#">Analytics</a>
+          <a className="nav-link active hover-underline-animation" aria-current="page" href="#">Analytics</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="#">Measures</a>
+          <a className="nav-link active hover-underline-animation" aria-current="page" href="#">Measures</a>
         </li>
       </ul>
     </div>
@@ -36,10 +36,13 @@ const Navbar=()=>{
  
 <div className="content">
        <div className="heading">
-        Invest in Future
+        <div class="head1">
+        Invest&nbsp;</div>
+        <div class="head2"> in the future</div>
        </div>
        <div className="text">
             We strive to provide the best sustainable energy solutions in the solar energy sector to help the world transition to green energy.
+        
         </div>
        <button className="btn">Explore</button>
 </div><br /><br /><br />
